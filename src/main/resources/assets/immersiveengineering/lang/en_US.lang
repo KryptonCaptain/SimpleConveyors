@@ -1,0 +1,41 @@
+# BLOCKS
+
+tile.s_conveyors.metalDevice.conveyorBelt.name=Conveyor Belt
+tile.s_conveyors.metalDevice.sorter.name=Transport Router
+tile.s_conveyors.metalDevice.conveyorDropper.name=Dropping Conveyor Belt
+
+# ITEMS
+
+item.s_conveyors.tool.hammer.name=Configurator Hammer
+
+
+#CREATIVE
+itemGroup.s_conveyors=Simple Conveyors
+
+#DESCRIPTIONS
+desc.ImmersiveEngineering.info.blockSide.facing=Facing Side
+desc.ImmersiveEngineering.info.blockSide.opposite=Opposite Side
+desc.ImmersiveEngineering.info.blockSide.UP=Top Side
+desc.ImmersiveEngineering.info.blockSide.DOWN=Bottom Side
+desc.ImmersiveEngineering.info.blockSide.NORTH=North Side
+desc.ImmersiveEngineering.info.blockSide.SOUTH=South Side
+desc.ImmersiveEngineering.info.blockSide.EAST=East Side
+desc.ImmersiveEngineering.info.blockSide.WEST=West Side
+
+desc.ImmersiveEngineering.info.filter.oreDict=Filter: OreDictionary<br>Filters items based on<br>their OreDictionary names.
+desc.ImmersiveEngineering.info.filter.nbt=Filter: NBT Data<br>Filters items with<br>respect to their NBT Data.
+desc.ImmersiveEngineering.info.filter.fuzzy=Filter: Fuzzy<br>Filters items while<br>ignoring their damage value.
+
+desc.ImmersiveEngineering.info.oreDict.off=OreDictionary: Disabled
+desc.ImmersiveEngineering.info.oreDict.on=OreDictionary: Enabled
+
+desc.ImmersiveEngineering.info.durability=Durability: %1$s
+
+desc.ImmersiveEngineering.info.holdShift=§6Hold Shift§r
+
+gui.ImmersiveEngineering.empty=Empty
+
+#RECIPES
+recipe.ImmersiveEngineering.hammerCrushing=Crushing
+
+
