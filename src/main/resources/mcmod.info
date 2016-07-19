@@ -3,7 +3,7 @@
   "modid": "s_conveyors",
   "name": "Simple Conveyors",
   "description": "",
-  "version": "1.0",
+  "version": "${version}",
   "mcversion": "1.7.10",
   "url": "",
   "updateUrl": "",
