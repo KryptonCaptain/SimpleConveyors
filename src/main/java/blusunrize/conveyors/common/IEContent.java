@@ -64,11 +64,12 @@ public class IEContent
 	public static void init()
 	{
 		/**TILEENTITIES*/
-
-
 		registerTile(TileEntityConveyorBelt.class);
 
 		registerTile(TileEntityConveyorSorter.class);
+		
+		/**CRAFTING*/
+		IERecipes.initCraftingRecipes();	
 
 
 	}

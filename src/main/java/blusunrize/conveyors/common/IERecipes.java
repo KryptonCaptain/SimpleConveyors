@@ -35,14 +35,28 @@ public class IERecipes
 	public static void initCraftingRecipes()
 	{
 		addOredictRecipe(new ItemStack(IEContent.blockMetalDevice,8, BlockMetalDevices.META_conveyorBelt), 
-				"LLL","IRI", 'I',"ingotIron",'R',"dustRedstone",'L',Items.leather);
+				"LLL","IRI", 
+				'I',"ingotIron",
+				'R',"dustRedstone",
+				'L',Items.leather);
+		
 		addOredictRecipe(new ItemStack(IEContent.blockMetalDevice,1, BlockMetalDevices.META_sorter), 
-				"IRI","WBW","IRI", 'I',"ingotIron",'R',"dustRedstone",'W',"plankWood",'B',Blocks.chest);
+				"IRI","WBW","IRI", 
+				'I',"ingotIron",
+				'R',"dustRedstone",
+				'W',"plankWood",
+				'B',Blocks.chest);
+		
 		addOredictRecipe(new ItemStack(IEContent.blockMetalDevice,1, BlockMetalDevices.META_conveyorDropper), 
-				"C","H", 'C',new ItemStack(IEContent.blockMetalDevice,1,BlockMetalDevices.META_conveyorBelt),'H',Blocks.hopper);
+				"C","H", 
+				'C',new ItemStack(IEContent.blockMetalDevice,1,BlockMetalDevices.META_conveyorBelt),
+				'H',Blocks.hopper);
 		
 		addOredictRecipe(new ItemStack(IEContent.itemTool,1,0), 
-				" IF"," SI","S  ", 'I',"ingotIron", 'S',"stickWood", 'F',new ItemStack(Items.string));
+				" IF"," SI","S  ", 
+				'I',"ingotIron", 
+				'S',"stickWood", 
+				'F',new ItemStack(Items.string));
 
 	}
 	
